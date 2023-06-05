@@ -1,0 +1,14 @@
+[
+  {
+    "StackId": "f4ff9c33-76ba-e731-aac9-b33c565b4327",
+    "UserId": "4ce8e96f-b3f9-4510-8e8c-02d099e1f3bd",
+    "CreatedAt": "2023-02-11T16:08:04.8389428+01:00",
+    "IsDeleted": false
+  },
+  {
+    "StackId": "974679eb-ba5e-9862-78e9-769d1be71fbd",
+    "UserId": "311c0cf1-7c88-e221-c4ff-38ce6418a005",
+    "CreatedAt": "2023-02-11T16:08:04.8389428+01:00",
+    "IsDeleted": false
+  }
+]

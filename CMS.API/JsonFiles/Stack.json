@@ -1,0 +1,84 @@
+[
+  {
+    "Id": "f4ff9c33-76ba-e731-aac9-b33c565b4327",
+    "Name": "DotNet",
+    "CreatedAt": "2023-02-11T16:08:04.8135813+01:00",
+    "IsDeleted": false
+  },
+  {
+    "Id": "974679eb-ba5e-9862-78e9-769d1be71fbd",
+    "Name": "Node",
+    "CreatedAt": "2023-02-11T16:08:04.8389428+01:00",
+    "IsDeleted": false
+  },
+  {
+    "Id": "88becec1-7efb-8aa2-47c9-e0b1d9b27570",
+    "Name": "Java",
+    "CreatedAt": "2023-02-11T16:08:04.8391054+01:00",
+    "IsDeleted": false
+  }
+  //{
+  //  "Id": "a176ee4d-374b-da32-1dd9-35917ac07c83",
+  //  "Name": "copying",
+  //  "UserId": "46daa68e-7596-03c2-2ebe-6c6d671c0556",
+  //  "CreatedAt": "2023-02-11T16:08:04.8392662+01:00",
+  //  "UpdatedAt": "0001-01-01T00:00:00",
+  //  "IsDeleted": true
+  //},
+  //{
+  //  "Id": "2e0227f7-83ec-38b4-f082-424c0d1c74a2",
+  //  "Name": "JBOD",
+  //  "UserId": "9c1fe821-b880-0388-c755-14569645672b",
+  //  "CreatedAt": "2023-02-11T16:08:04.8394041+01:00",
+  //  "UpdatedAt": "0001-01-01T00:00:00",
+  //  "IsDeleted": true
+  //},
+  //{
+  //  "Id": "04a6605e-83da-385a-7a31-12ad5cfe41c6",
+  //  "Name": "indigo",
+  //  "UserId": "d8bf91bf-cfd2-c4ee-4220-10d9069cf249",
+  //  "CreatedAt": "2023-02-11T16:08:04.8395452+01:00",
+  //  "UpdatedAt": "0001-01-01T00:00:00",
+  //  "IsDeleted": false
+  //},
+  //{
+  //  "Id": "1cba6afe-7a68-943b-16cb-3623a3921d56",
+  //  "Name": "green",
+  //  "UserId": "52597c70-a6b5-c2a6-1d50-9b6b33bfda69",
+  //  "CreatedAt": "2023-02-11T16:08:04.8397326+01:00",
+  //  "UpdatedAt": "0001-01-01T00:00:00",
+  //  "IsDeleted": true
+  //},
+  //{
+  //  "Id": "0fad248c-c0a0-aedf-7473-83d7b4600db8",
+  //  "Name": "Checking Account",
+  //  "UserId": "1aead815-03a5-3f1d-aad2-afe8eb265c89",
+  //  "CreatedAt": "2023-02-11T16:08:04.8397351+01:00",
+  //  "UpdatedAt": "0001-01-01T00:00:00",
+  //  "IsDeleted": false
+  //},
+  //{
+  //  "Id": "0fad248c-c0a0-aedf-7473-83d7b4600db8",
+  //  "Name": "Checking Account",
+  //  "UserId": "1aead815-03a5-3f1d-aad2-afe8eb265c89",
+  //  "CreatedAt": "2023-02-11T16:08:04.8397351+01:00",
+  //  "UpdatedAt": "0001-01-01T00:00:00",
+  //  "IsDeleted": false
+  //},
+  //{
+  //  "Id": "ff486567-03b8-d800-44b4-63072ac58243",
+  //  "Name": "one-to-one",
+  //  "UserId": "e2ca9ec8-1c06-9bae-4413-8afafc66ca62",
+  //  "CreatedAt": "2023-02-11T16:08:04.8397366+01:00",
+  //  "UpdatedAt": "0001-01-01T00:00:00",
+  //  "IsDeleted": true
+  //},
+  //{
+  //  "Id": "3258c6ba-7acc-a5a3-6984-125a3d0ae306",
+  //  "Name": "deposit",
+  //  "UserId": "9dc8556e-4130-bdd7-b7b9-d1b9132077e5",
+  //  "CreatedAt": "2023-02-11T16:08:04.8398781+01:00",
+  //  "UpdatedAt": "0001-01-01T00:00:00",
+  //  "IsDeleted": false
+  //}
+]

@@ -1,0 +1,176 @@
+﻿@{
+    ViewData["Title"] = "Facilitator Dashboard";
+}
+<style>
+    .fl-width {
+        width: 100%
+    }
+
+    .flex2 {
+        flex: 3
+    }
+
+    .text-gray {
+        color: #525C65;
+    }
+
+    .flex1 {
+        flex: 1
+    }
+
+    .md-width {
+        width: 97%;
+        margin: 0 auto
+    }
+
+    .sm-width {
+        width: 33%;
+    }
+
+    .ht-auto {
+        height: auto
+    }
+
+    .bg-blue {
+        background-color: #1570EF;
+    }
+
+    .br-10 {
+        border-radius: 10px;
+    }
+
+    .gray-border {
+        border: 2px solid #98A2B3;
+    }
+    .mg-left{
+        margin-left: 10px
+    }
+    .bg-white {
+        background-color: #fff;
+    }
+    .table{
+        width:95%;    
+    }
+
+    .centered-table{
+        margin:auto;
+    }
+
+        .centered-table td,
+        .centered-table th {
+            text-align: center;
+        }
+
+
+</style>
+<link rel="stylesheet" href="~/css/Dev.css" />
+<partial name="_FacilitatorLeftNavbarPartial" />
+
+<div class="right-main-panel">
+    <div>
+        <partial name="_FacilitatorTopNavbarPartial" />
+    </div>
+
+    <div class="inner-panel">
+        <div class="bg-blue md-width ht-auto br-10 my-5 p-5">
+            <h1 class="text-light fw-bold mb-3 ">Overview</h1>
+            <p class="text-light ft-22"> View dashboard containing all Java decadevs activities. </p>
+        </div>
+    </div>
+
+    <div class="ms-5 flex">
+        <div class="right">
+            <h4>You’re currently viewing Java (SQ014) devs</h4>
+        </div>
+        <div class="dropdown me-5">
+            <button class="btn bg-transparent me-5 mb-5 p-3 gray-border br-50 w-40" data-bs-toggle="dropdown">
+                <span id="selectedOption">Java </span> |
+                <i class="bi bi-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" onclick="selectOption('.Net')">.Net</a></li>
+                <li><a class="dropdown-item" href="#" onclick="selectOption('Java')">Java</a></li>
+                <li><a class="dropdown-item" href="#" onclick="selectOption('Node')">Node</a></li>
+                <li><a class="dropdown-item" href="#" onclick="selectOption('Frontend')">Frontend</a></li>
+                <li><a class="dropdown-item" href="#" onclick="selectOption('Agile')">Agile</a></li>
+            </ul>
+        </div>
+        <script>
+            function selectOption(option) {
+                document.getElementById('selectedOption').textContent = option;
+            }
+        </script>
+    </div>
+    <div class="ms-5 sm-width mt-3">
+        <div class="flex p-3 bg-white br-10">
+            <div class="p-4 flex2">
+                <p class="text-gray ft-22 pb-2">Total number of Devs in Java</p>
+                <h2 class="fw-bold">200</h2>
+            </div>
+            <div class="flex1 flex-center">
+
+                <img src="~/images/profile-2user.png" />
+            </div>
+        </div>
+    </div>
+    <p class="mx-5 my-4 ft-22 fw-bold">
+        Decadevs Table
+    </p>
+
+    <table class="ms-5 md-width table mt-20 mg-left centered-table">
+        <thead class="ft-15  p-2 th-bg">
+            <tr>
+                <th>Full Name</th>
+                <th>Squad</th>
+                <th>Quiz</th>
+                <th>Course</th>
+                <th>Language</th>
+            </tr>
+        </thead>
+        <tbody class="bg-white">
+            <tr>
+                <td><p class="blue">John Doe</p></td>
+                <td><p>11A</p></td>
+                <td><p class="blue">View</p></td>
+                <td><p>Become a developer</p></td>
+                <td><p>Java</p></td>
+            </tr>
+
+            <tr>
+                <td><p class="blue">John Doe</p></td>
+                <td><p>11A</p></td>
+                <td><p class="blue">View</p></td>
+                <td><p>Become a developer</p></td>
+                <td><p>Java</p></td>
+            </tr>
+
+            <tr>
+                <td><p class="blue">John Doe</p></td>
+                <td><p>11A</p></td>
+                <td><p class="blue">View</p></td>
+                <td><p>Become a developer</p></td>
+                <td><p>Java</p></td>
+            </tr>
+
+            <tr>
+                <td><p class="blue">John Doe</p></td>
+                <td><p>11A</p></td>
+                <td><p class="blue">View</p></td>
+                <td><p>Become a developer</p></td>
+                <td><p>Java</p></td>
+            </tr>
+
+            <tr>
+                <td><p class="blue">John Doe</p></td>
+                <td><p>11A</p></td>
+                <td><p class="blue">View</p></td>
+                <td><p>Become a developer</p></td>
+                <td><p>Java</p></td>
+            </tr>
+            
+        </tbody>
+    </table>
+</div>
+
+
+

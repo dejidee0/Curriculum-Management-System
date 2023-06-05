@@ -1,0 +1,52 @@
+﻿<div class="side-nav-panel">
+    <div class="top-nav-panel">
+        <div class="inner-panel bb-3 pb-2">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                <partial name="_LogoPartial" />
+            </a>
+        </div>
+    </div>
+    <div class="menu-list-panel">
+        <a href="#">
+            <div class="menu-item">
+                <div class="menu-image-box">
+                    <img src="~/images/dashboard.png" asp-append-version="true" />
+                </div>
+                <span>Dashboard</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="menu-item">
+                <div class="menu-image-box">
+                    <img src="~/images/Icon.png" asp-append-version="true" />
+                </div>
+                <span>Upload Resources</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="menu-item">
+                <div class="menu-image-box">
+                    <img src="~/images/Icon2.jpg" asp-append-version="true" />
+                </div>
+                <span>Upload Quizes</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="menu-item">
+                <div class="menu-image-box">
+                    <img src="~/images/permissions.png" asp-append-version="true" />
+                </div>
+                <span>Permission</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="menu-item logout-menu">
+                <div class=" flex menu-image-box">
+                    @*<img src="~/images/logo.png" asp-append-version="true" />*@
+                    <i class="bi bi-box-arrow-right text-black ft-23"></i>
+                </div>
+                <span class="ft-20">Logout</span>
+            </div>
+        </a>
+    </div>
+</div>

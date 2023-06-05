@@ -1,0 +1,262 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_PermissionDecadevLayout.cshtml";
+    ViewData["Title"] = "Permission Page";
+}
+<partial name="_LeftNavbarPartial" />
+<div class="right-main-panel">
+    <div class="inner-panel">
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white box-shadow mb-3 ps-4" style=" padding-right: 100px;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <p class="mb-0">Welcome, Admin<i class="bi bi-bell ms-10"></i><p>
+                        <div class="search-border p-2">
+                            <label for="search-input" class="placeholder-label">
+                                <i class="bi bi-search gray"></i>
+                            </label>
+                            <input type="text" id="search-input" class="border-0" placeholder="Search" />
+                        </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <div class=" text-right inner-panel pt-4 ps-4" style="padding-right: 100px;">
+        <partial name="_PermissionPartial" />
+        <div class="d-flex mb-4">
+            <h5 class="curriculum w-75">Curriculum Access</h5>
+            <div class="curri-right d-flex align-items-center gap-4 justify-content-between">
+                <Navlink href="#">Facilitator</Navlink>
+                <NavLink href="#" class="active">Decadev</NavLink>
+                <button class="btn btn-primary mt-0 w-0" data-toggle="modal" data-target="#myModal">Add <i class="oi oi-plus" aria-hidden="true"></i></button>
+
+            </div>
+        </div>
+        <table class="table">
+            <thead style="background-color: #EAECF0;">
+                <tr class="fw-bold">
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Language</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white">
+                    <td>
+                        <p>Ajayi Abiodun</p>
+                    </td>
+                    <td><p>abiodun@decagon.com</p></td>
+                    <td><p>Java</p></td>
+                    <td>
+                        <a href="" class="btn rounded text-danger">
+                            <i class="bi bi-trash ms-2"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="bg-white">
+                    <td>
+                        <p>Chibueze Amadi</p>
+                    </td>
+                    <td><p>chibueze@decagon.com</p></td>
+                    <td><p>Java</p></td>
+                    <td>
+                        <a href="" class="btn rounded text-danger">
+                            <i class="bi bi-trash ms-2"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="bg-white">
+                    <td>
+                        <p>Orisa Shamimi</p>
+                    </td>
+                    <td><p>shamimi@decagon.com</p></td>
+                    <td><p>Java</p></td>
+                    <td>
+                        <a href="" class="btn rounded text-danger">
+                            <i class="bi bi-trash ms-2"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="bg-white">
+                    <td>
+                        <p>Ahmed Ajala</p>
+                    </td>
+                    <td><p>ahmed@decagon.com</p></td>
+                    <td><p>Java</p></td>
+                    <td>
+                        <a href="" class="btn rounded text-danger">
+                            <i class="bi bi-trash ms-2"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="bg-white">
+                    <td>
+                        <p>Emmanuel Omale</p>
+                    </td>
+                    <td><p>emmanuel@decagon.com</p></td>
+                    <td><p>Java</p></td>
+                    <td>
+                        <a href="" class="btn rounded text-danger">
+                            <i class="bi bi-trash ms-2"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="bg-white">
+                    <td>
+                        <p>Emmanuel Oriaku</p>
+                    </td>
+                    <td><p>emmy@decagon.com</p></td>
+                    <td><p>Java</p></td>
+                    <td>
+                        <a href="" class="btn rounded text-danger">
+                            <i class="bi bi-trash ms-2"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="bg-white">
+                    <td>
+                        <p>Babatunde Saheed</p>
+                    </td>
+                    <td><p>saheed@decagon.com</p></td>
+                    <td><p>Java</p></td>
+                    <td>
+                        <a href="" class="btn rounded text-danger">
+                            <i class="bi bi-trash ms-2"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="bg-white">
+                    <td>
+                        <p>IfeanyiOkpara</p>
+                    </td>
+                    <td><p>ifeanyi@decagon.com</p></td>
+                    <td><p>Java</p></td>
+                    <td>
+                        <a href="" class="btn rounded text-danger">
+                            <i class="bi bi-trash ms-2"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="bg-white">
+                    <td>
+                        <p>Olowoookere Timilehim</p>
+                    </td>
+                    <td><p>timi@decagon.com</p></td>
+                    <td><p>Java</p></td>
+                    <td>
+                        <a href="" class="btn rounded text-danger">
+                            <i class="bi bi-trash ms-2"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="bg-white">
+                    <td>
+                        <p>Sir Bunmi</p>
+                    </td>
+                    <td><p>bunmi@decagon.com</p></td>
+                    <td><p>Java</p></td>
+                    <td>
+                        <a href="" class="btn rounded text-danger">
+                            <i class="bi bi-trash ms-2"></i>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="bg-white">
+                    <td>
+                        <p>Stephen Ohaeri</p>
+                    </td>
+                    <td><p>stephen@decagon.com</p></td>
+                    <td><p>Java</p></td>
+                    <td>
+                        <a href="" class="btn rounded text-danger">
+                            <i class="bi bi-trash ms-2"></i>
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="myModalLabel">New Devadev</h5>
+                        <button type="button" class="close mt-0 p-0 bg-white" style="width: 10%" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true" style="color: #757575; font-size: 24px;">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <Form>
+                            <div class="form-group ">
+                                <label for="firstname" class="ps-0 col-form-label p-1">
+                                    First Name
+                                </label>
+                                <div>
+                                    <input id="firstname" class="form-control p-2" placeholder="Type first name" />
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label for="lastname" class="ps-0 col-form-label p-1">
+                                    Last Name
+                                </label>
+                                <div>
+                                    <input id="lastname" class="form-control p-2" placeholder="Type last name" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="ps-0 col-form-label p-1">
+                                    Email
+                                </label>
+                                <div>
+                                    <input id="email" class="form-control p-2" placeholder="Enter email" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="Language" class="ps-0 col-form-label p-1">
+                                    Language
+                                </label>
+                                <div>
+                                    <select id="language" class="form-control">
+                                        <option>Select</option>
+                                        <option value=".Net">.Net</option>
+                                        <option value="Java">Java</option>
+                                        <option value="Node">Node</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button class="bg-primary text-white rounded mt-4 p-2 border-0 w-100" type="button">Add</button>
+                            <button class="rounded border-0 mt-2 p-2 w-100 text-black" style="background: #F2F4F7;" data-dismiss="modal" type="button">
+                                Cancel
+                            </button>
+                        </Form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn text-primary border-primary p-1 d-flex ms-auto" style="width: 15%;" data-toggle="modal" data-target="#myInviteModal">Send Invite</button>
+        <div class="modal fade" id="myInviteModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="d-flex justify-content-center mb-3 mt-3">
+                        <img src="~/images/Emoji.png" alt="cup emoji" />
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <h5 class="fw-bold pb-4">Invite sent</h5>
+                            <p class="pb-4">You have successfully invited <span class="fw-bold">10 Decadevs</span> to java stack.</p>
+                            <button class="rounded border-0 p-2 mt-0 w-100 bg-primary text-white" data-dismiss="modal" type="button">
+                                Ok
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

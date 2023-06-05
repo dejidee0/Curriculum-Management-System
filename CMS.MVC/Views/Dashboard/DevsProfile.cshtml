@@ -1,0 +1,223 @@
+﻿@{
+    Layout = "~/Views/Shared/_DevProfileLayout.cshtml";
+    ViewData["Title"] = "Dev's Profile Page";
+}
+@*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*@
+<style>
+    body {
+        margin-bottom: -100px
+    }
+    .container {
+        width: 98%;
+        margin: 0px auto
+    }
+
+    .blue-text {
+        color: #1570EF;
+    }
+
+    .mt10 {
+        margin-top: -10px
+    }
+
+    .bg-blue {
+        background-color: #1570ef
+    }
+
+    .bg-blue2 {
+        background-color: blue;
+    }
+
+    .md-container {
+        width: 95%
+    }
+
+    .sm-container {
+        width: 85%
+    }
+
+    .left-text {
+        text-align: left
+    }
+
+    .xs-container {
+        width: 70%
+    }
+
+    .ft-23 {
+        font-size: 23px;
+    }
+
+    .ft-70 {
+        font-size: 70px
+    }
+
+    .right-border {
+        border-right: 2px solid #667085
+    }
+
+    .bb-3 {
+        border-bottom: 2px solid #EEEEEE;
+    }
+
+    .flex {
+        display: flex
+    }
+
+    .center-margin {
+        margin: 0px auto
+    }
+
+    .flex-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .br-8 {
+        border-radius: 8px
+    }
+
+    .br-50 {
+        border-radius: 50px
+    }
+
+    .lh-10 {
+        line-height: 10px
+    }
+    .flexThree {
+        flex: 3
+    }
+    .flex4 {
+        flex: 2
+    }
+
+    .flex5 {
+        flex: 4
+    }
+
+    .flex3 {
+        flex: 6
+    }
+
+    .line {
+        height: 5px;
+        background-color: #E0EAFF
+    }
+
+    .flex1 {
+        flex: 1
+    }
+
+    .box-shadow {
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    .flex-between {
+        display: flex;
+        justify-content: space-between
+    }
+
+    .gray-text {
+        color: #667085;
+    }
+
+    .gray-outline {
+        outline: 1px solid #667085
+    }
+
+    .ht-auto {
+        height: auto;
+    }
+</style>
+
+<partial name="_DevsProfileLeftNavbarPartial" />
+
+
+<div class="">
+    <div class="right-main-panel">
+        <div class="">
+            <div class="flex-between container">
+                <a href="#">
+                    <div class="flex gray-text py-3 mt-1">
+                        <i class="bi bi-arrow-left me-3"></i>
+                        <p>Go Back</p>
+                    </div>
+                </a>
+            </div>
+            <div class="container gray-text">
+                <h3 class="mb-2"> Profile summary for John Doe (Java)</h3>
+            </div>
+            <div class="flex box-shadow br-8 sm-container ms-4 bg-white">
+                <div class="flex-center flexThree box-shadow p-4 ht-auto text-center">
+                    <img src="~/images/userImg.png" />
+                    <h2 class="fw-bold py-2">Showstopper Ace</h2>
+                    <p class="ft-22 gray-text">Backend Track: Java </p>
+                    <p class="gray-outline p-2 gray-text br-50">Squad Number: SQ014</p>
+                </div>
+                <div class="flex1 text-center p-5 gray-text">
+                    <p class="ft-23">last activity: 2:20PM</p>
+                </div>
+            </div>
+            <br />
+
+
+            <div class="text-center box-shadow sm-container ms-4 p-5 bg-white">
+                <p class="ft-23">Courses Registered and the Scores earned</p>
+                <div class="xs-container flex center-margin text-center">
+                    <div class="flex1 right-border">
+                        <p class="ft-70">3</p>
+                        <p>Courses</p>
+                    </div>
+                    <div class="flex1 right-border">
+                        <p class="ft-70">0</p>
+                        <p>Completed</p>
+                    </div>
+                    <div class="flex1 right-border">
+                        <p class="ft-70">0</p>
+                        <p>Quiz taken</p>
+                    </div>
+
+                    <div class="flex1 right-border">
+                        <p class="ft-70">0</p>
+                        <p class="blue">Scores earned</p>
+                    </div>
+                </div>
+
+
+                <div class="ms-4 mt-5">
+                    <div class="flex">
+                        <p class="flex1 mb-5 fw-bold">Backend(Node)</p>
+                        <div class="ms-2 flex-between bg-blue line flex3 br-50 mt-2 me-5">
+                            <div class="br-8 flex1 bg-blue2"></div>
+                            <div class="flex3"></div>
+                        </div>
+                        <p class="ft-15 blue-text fw-bold">21% completed</p>
+                    </div>
+
+                    <div class="flex">
+                        <p class="flex1 mb-5 fw-bold">Frontend(React)</p>
+                        <div class="ms-2 flex-between bg-blue line flex3 br-50 mt-2 me-5">
+                            <div class="br-8 flex1 bg-blue2"></div>
+                            <div class="flex4"></div>
+                        </div>
+                        <p class="ft-15 blue-text fw-bold">30% completed</p>
+                    </div>
+
+                    <div class="flex">
+                        <p class="fw-bold left-text flex1 mb-5">Agile</p>
+                        <div class="ms-4 flex-between bg-blue line flex3 br-50 mt-2 me-5">
+                            <div class="br-8 flex3 bg-blue2"></div>
+                            <div class="flex5"></div>
+                        </div>
+                        <p class="ft-15 blue-text fw-bold">58% completed</p>
+                    </div>
+                </div>
+            </div>
+            <br /><br />
+
+        </div>
+    </div>
+</div>
+

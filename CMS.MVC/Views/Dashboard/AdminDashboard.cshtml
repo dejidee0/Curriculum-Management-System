@@ -1,0 +1,104 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Admin Dashboard Page";
+}
+<style>
+    body {
+        margin-bottom: -100px;
+    }
+</style>
+<partial name="_LeftNavbarPartial" />
+
+<div class="">
+    <div class="right-main-panel">
+        <div>
+            <partial name="_TopNavPartial" />
+        </div>
+        <div class="contain">
+
+            <div class="flex">
+                <h2 class="">Dashboard</h2>
+                <div class="dropdown mt-5">
+                    <button class="btn bg-transparent me-5 mb-5 p-3 gray-border br-50 w-40" data-bs-toggle="dropdown">
+                        <span id="selectedOption">All </span> <b>| </b>
+                        <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#" onclick="selectOption('SQ011')">SQ011</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="selectOption('SQ012')">SQ012</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="selectOption('SQ013')">SQ013</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="selectOption('SQ014')">SQ014</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="selectOption('SQ015')">SQ015</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="selectOption('SQ016')">SQ016</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt10"><p>You're currently viewing all (SQ014) Devs</p></div>
+
+            <div class="container flex">
+                <div class="right p-5 bg-blue br-5 ft-20 text-white">
+                    Total numbers of Devs in<br />
+                    .Net
+                    <img src="~/images/Admin.png" class="img" />
+                    <h3>200</h3>
+                </div>
+                <div class="right p-5 bg-info br-5 mx-4 ft-20 text-white">
+                    Total numbers of Devs in<br />
+                    Node
+                    <img src="~/images/Admin.png" class="img" />
+                    <h3>200</h3>
+                </div>
+                <div class="right p-5 bg-orange br-5 ft-20 text-white">
+                    Total numbers of Devs in<br />
+                    Java
+                    <img src="~/images/Admin.png" class="img" />
+                    <h3>200</h3>
+                </div>
+            </div>
+            <div class="container my-2">
+                <p>Total Number of SQ014 Devs: <span class="text-black"><b>600</b></span></p>
+            </div>
+            <div class="container mt-5">
+                <h4>
+                    Recent Activities
+                </h4>
+            </div>
+            <div class="bg-white br-5">
+
+                <table id="activities">
+
+                    <tr>
+                        <td>Facilitor access granted to Kenneth code</td>
+                        <td>Yesterday 1:20pm</td>
+                    </tr>
+                    <tr>
+                        <td>Remove John from accessing .Net courses</td>
+                        <td>Yesterday 10:30am</td>
+                    </tr>
+                    <tr>
+                        <td>Kenneth uploaded week 2, lesson 4 and 5 content</td>
+                        <td>Yesterday 12:20pm</td>
+                    </tr>
+                    <tr>
+                        <td>Facilitor access granted to John code</td>
+                        <td>Yesterday 12:20pm</td>
+                    </tr>
+                    <tr>
+                        <td>Facilitor access granted to Kenneth code</td>
+                        <td>Yesterday 1:20pm</td>
+                    </tr>
+
+                </table>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function selectOption(option) {
+        document.getElementById('selectedOption').textContent = option;
+    }
+</script>
+

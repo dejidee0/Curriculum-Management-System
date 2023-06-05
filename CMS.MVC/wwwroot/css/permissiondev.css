@@ -1,0 +1,85 @@
+﻿@import "colors.css";
+
+body {
+    font-family: inter;
+    background-color: var(--grey);
+}
+.permitdiv {
+    padding-left: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #ffffff;
+    background-color: var(--blue);
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.permitheader {
+    font-weight: 700;
+    line-height: 44.8px;
+}
+
+.curriculum {
+    font-weight: 700;
+}
+
+.curri-right {
+    color: #1570EF;
+}
+
+.search-border{
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.active {
+    box-shadow: 0px 2px #1570EF
+}
+
+.ms-10 {
+    margin-left: 10px
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.br-3 {
+    border-radius: 3px;
+}
+
+.pa-2 {
+    padding: 1.7px 0px
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.ft-5 {
+    font-size: 15px
+}
+
+.ln-ht {
+    line-height: 4px;
+}
+
+.gray {
+    color: #757575
+}
+
+.gray-outline {
+    outline: 1px solid #f5f0f0
+}
+
+.blue {
+    color: #1570EF
+}
+
+.blue-outline {
+    outline: 1px solid #1570EF
+}
+

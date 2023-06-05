@@ -1,0 +1,120 @@
+﻿@using Microsoft.AspNetCore.Mvc.Rendering
+@model CKEditor
+@{
+    Layout = "~/Views/Shared/_ResourcePageLayout.cshtml";
+}
+
+<partial name="_LeftSidebarResourcePartial" />
+
+<div>
+    <div class="right-main-panel">
+        <div class="inner-panel inner-padding">
+            <section class="d-flex flex-column gap-4">
+            <h1>Resources</h1>
+            <form>
+                <section class="d-flex flex-column gap-4">
+                    <div class="col-12">
+                        <label class="form-label" for="title">Course Week</label>
+                            <select class="form-control" id="week">
+                                <option value="Select">Enter a Week</option>
+                                <option value="week2">Week 1</option>
+                                <option value="week3">Week 2</option>
+                                <option value="week3">Week 3</option>
+                                <option value="week3">Week 4</option>
+                                <option value="week3">Week 5</option>
+                            </select>
+                    </div>
+                        <div class="col-12">
+                            <label class="form-label" for="title">Course Module</label>
+                            <select class="form-control" id="week">
+                                <option value="Select">Enter a Course Module</option>
+                                <option value="week2">Module 1</option>
+                                <option value="week3">Module 2</option>
+                                <option value="week3">Module 3</option>
+                                <option value="week3">Module 4</option>
+                                <option value="week3">Module 5</option>
+                            </select>
+                        </div>
+                    <div class="col-12">
+                        <label class="form-label" for="title">Course Title</label>
+                        <input type="text" class="form-control" id="title" placeholder="Enter a title" />
+                    </div>
+                    <div class="col-12 d-flex justify-content-between align-items-end">
+                            <div class="col-5">
+                                <label class="form-label" for="video-category">Category</label>
+
+                                <input type="text" class="form-control" id="video-category" placeholder="Input your video category" />
+                            </div>
+                            <div class="input-2 col-5">
+                                <label class="form-label" for="video-content">Video Content</label>
+                                <input type="file" class="form-control" id="video-content" placeholder="Upload video content" />
+                            </div>
+                    </div>
+                    <div>
+                        <textarea asp-for="Content" class="ckeditor"></textarea>
+                    </div>
+                        <button type="submit" class="submitbtn">Send</button>
+                    </section>
+            </form>
+            <section class="mt-4">
+                <h5>Upload</h5>
+                    <table class="table">
+                        <thead class="thead-dark bacCol">
+                            <tr>
+                                <th class="row">Document Name</th>
+                                <th>Document Type</th>
+                                <th>Date</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="row">PR_Docs_92431620</td>
+                                <td>Vid</td>
+                                <td>03.12.2022,02:44PM</td>
+                                <td class="ico">
+                                    <div class="ico d-flex align-items-center">
+                                        <i class="bi bi-upload me-2"></i>
+                                        <i class="bi bi-trash text-danger ms-2"></i>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="row">PR_Docs_92431620</td>
+                                <td>Vid</td>
+                                <td>03.12.2022,02:44PM</td>
+                                <td class="ico">
+                                    <div class="ico d-flex align-items-center">
+                                        <i class="bi bi-upload me-2"></i>
+                                        <i class="bi bi-trash text-danger ms-2"></i>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="row">PR_Docs_92431620</td>
+                                <td>Vid</td>
+                                <td>03.12.2022,02:44PM</td>
+                                <td class="ico">
+                                    <div class="ico d-flex align-items-center">
+                                        <i class="bi bi-upload me-2"></i>
+                                        <i class="bi bi-trash text-danger ms-2"></i>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    
+
+            </section>
+
+            </section>
+
+
+
+
+
+        </div>
+    </div>
+</div>
+

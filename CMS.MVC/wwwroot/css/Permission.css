@@ -1,0 +1,260 @@
+﻿@import "colors.css";
+
+.container{
+    width: 1123px;
+    height:1024px;
+    align-items: center;
+    position: relative;
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 475px;
+    position: relative;
+    width: 1123px;
+    height: 80px;
+    left: 317px;
+    top: 0px;
+    background-color: var(--white);
+}
+
+.textfield-default {
+    width: 320px;
+}
+
+.textfield-base {
+    align-self: stretch;
+    gap: 2px;
+}
+
+.input-with-label{
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+}
+
+.input{
+    align-items:center;
+    align-self:stretch;
+    background-color:white;
+    border:1px solid;
+    border-color:#bdbdbd;
+    border-radius:4px;
+    display:flex;
+    gap:8px;
+    overflow:hidden;
+    padding:12px;
+    position:relative;
+}
+
+.content{
+    align-items:center;
+    display:flex;
+    flex: 1;
+    gap: 8px;
+    position:relative;
+}
+.text{
+    align-items:flex-start;
+    display:flex;
+    flex:1;
+    gap:2px;
+    position:relative;
+}
+
+.notification{
+    height:24px;
+    margin-right: -3px;
+    min-width:24px;
+    position:relative;
+}
+
+.welcome {
+    color: #101828;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    line-height: 22.4px;
+}
+
+.welcome-text{
+    align-items:center;
+    display: flex;
+    gap: 16px;
+    position: relative;
+    width:196px;
+}
+
+.permission{
+    align-items:flex-start;
+    background-position: 50% 50%;
+    border-radius:12px;
+    flex-direction:column;
+    gap:4px;
+    margin-left:24px;
+    padding:16px 24px;
+    position: relative;
+    width:999px;
+    height:93px;
+    margin-left:341px;
+    background-color:var(--blue);
+    margin-top:24px;
+    color: var(--white);
+}
+
+.invite .permission-1 {
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+    letter-spacing: 0.15px;
+    line-height: 22.4px;
+}
+
+.permission-1 {
+    font-weight: 700;
+    line-height: 44.8px;
+    margin-left: -1px;
+    font-size : 32px;
+}
+
+.access{
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    position: relative;
+    width: 999px;
+    margin-left:341px;
+    margin-top:24px;
+}
+
+.java-curiculum-access {
+    color: #1E1E1E;
+    font-size: 24px;
+    font-weight:700;
+    letter-spacing: 0;
+    line-height:33.6px;
+    position:relative;
+    white-space:nowrap;
+    width: fit-content;
+}
+
+.accesslogin{
+    align-items:center;
+    display:flex;
+    gap: 24px;
+    position: relative;
+    width: fit-content;
+}
+
+.button-default{
+    align-items:center;
+    background-color: var(--blue);
+    border: 1px solid;
+    border-radius: 6px;
+    display:flex;
+    gap: 8px;
+    justify-content:center;
+    overflow:hidden;
+    padding: 12px 16px;
+    position:relative;
+    width: fit-content;
+}
+
+.button-default1 {
+    align-items: center;
+    background-color: var(--white);
+    color: var(--blue);
+    border: 1px solid;
+    border-radius: 6px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 12px 16px;
+    position: relative;
+    width: 119px;
+    height:46px;
+
+    margin-left: 900px;
+}
+
+.valign-text-middle{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.text-2{
+    color:var(--white);
+    font-weight:500;
+    letter-spacing:0.15px;
+    line-height:22.4px;
+}
+
+.permission-page .text-4{
+    font-size: 16px;
+    margin-top: -1px;
+    position:relative;
+    white-space:nowrap;
+    width: fit-content;
+}
+
+.icon{
+    height: 20px;
+    min-width: 20px;
+    position:relative;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #EAECF0;
+
+}
+
+.row{
+    width:999px;
+    height:602px;
+    margin-left :317px;
+}
+
+.text-3 {
+   color: var(--white);
+   font-weight: 500;
+   letter-spacing:0.15px;
+   line-height: 22.4px;
+}
+
+.icon{
+
+}
+
+.shapes {
+    background-color: #EAECF0;
+}
+
+.custom-table {
+    margin-left: 20px;
+} 

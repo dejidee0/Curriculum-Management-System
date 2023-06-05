@@ -1,0 +1,45 @@
+﻿@{
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+    ViewData["Title"] = "Login Page";
+}
+<div class="card-snow p-2 card bg-white">
+    <header class="navbar navbar-light bg-light bg-white">
+        <partial name="_LogoPartial" />
+    </header>
+</div>
+<div class="d-flex bg-white w-100">
+    <div class="col-6">
+
+        <div class="card-bodies p-4 card">
+
+            <h2 class="welcome-heading d-flex justify-content-center w-100">Welcome, Decadev</h2>
+            <p class="login d-flex justify-content-center w-100">Login with your Decagon credentials</p>
+            <div class="google-box d-flex justify-content-center w-100 ">
+                <div class="google-content">
+                    <img src="/images/Socialicon.png" alt="Sign in with Google" class="google-image" />
+                    <span class="google-text">Sign in with Google</span>
+
+                </div>
+            </div>
+
+            <p class="or-text d-flex justify-content-center w-100 pb-4 pt-4 mb-0">Or</p>
+            <form method="post" class="w-100">
+                <div class="form-group">
+                    <label for="email" class="pb-2">Decagon email</label>
+                    <input type="text" id="email" name="email" class="form-control p-2" placeholder="Enter your Decagon email" required />
+                </div>
+                <div class="form-group">
+                    <label for="password" class="pb-2">Password</label>
+                    <input type="password" id="password" name="password" class="form-control p-2" placeholder="Type in your password" required />
+                    <small><a asp-action="ForgotPassword" asp-controller="account" class="forgot-password">Forgot Password?</a></small>
+                </div>
+                <button type="submit" class="continue-button mt-3 p-2 w-100 bg-primary text-white rounded border-0">Continue</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="col-6">
+        <img src="~/images/myimage.png" alt="Image" class="w-100" id="hero-img" />
+    </div>
+</div>
+

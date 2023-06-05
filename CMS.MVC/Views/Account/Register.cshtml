@@ -1,0 +1,140 @@
+﻿@{
+   
+    ViewData["Title"] = "Register Page";
+
+}
+<link rel="stylesheet" href="~/css/Register.css" />
+@*<style>
+    *{
+        outline: none;
+        border: none;
+        margin: 0;
+        padding: 0;
+        list-style: none; 
+        
+    }
+
+   
+    .flex{
+        display: flex;
+        overflow-y: hidden;
+    }
+    .bg-blue{
+        background-color: #1570EF;
+    }
+    .bg-img{
+        background: url(/images/UserImage.png);
+        background-size: cover;
+        object-fit:fill;
+        background-repeat: no-repeat;
+        height: auto;
+        background-position: center;
+        
+    }
+    .blue-text {
+        color: #1570EF;
+    }
+    .flex1{
+        flex: 1;
+        position: relative;
+    }
+
+    .flex2 {
+        flex: 1.7
+    }
+    .bg-gray{
+        background-color: #D0D5DD;
+    }
+    .fl-width{
+        width: 100%
+    }
+
+
+    .br-5{
+        border-radius: 5px;
+        margin-bottom: 16px;
+    }
+    .sm-container{
+        width: 60%;
+        margin: auto;
+    }
+    .box-shadow{
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08)
+    }
+    .blk-display{
+        display:block
+    }
+</style>*@
+
+<body>
+    <div class="header_reg">
+        <partial name="_LogoPartial" />
+    </div>
+    @*div class="con flex">
+        <div class="flex2 py-5">
+            <div class="sm-container box-shadow p-3">
+               <form action="#">
+                   <h4>Register here</h4>
+                    <label class="blk-display mb-1">Full Name</label>
+                    <input class="bg-gray p-1 fl-width br-5" placeholder="John Doe" />
+
+                    <label class="blk-display mb-1">Decagon Email</label>
+                    <input class="bg-gray p-1 fl-width br-5" placeholder="JohnDoe@decagon.com" />
+
+                    <label class="blk-display mb-1">Language</label>
+                    <input class="bg-gray p-1 fl-width br-5" placeholder="Node" />
+
+                    <label class="blk-display mb-1">Password</label>
+                    <input class=" p-1 fl-width br-5" placeholder="Enter password" />
+
+                    <label class="blk-display mb-1">Confirm Password</label>
+                    <input class="p-1 fl-width br-5" placeholder="confirm password" />
+
+                   <button class="fl-width p-2 my-1 mt-3 br-5 bg-blue text-light">Continue</button>
+                   <div class="text-center">
+                        <p>Already have an account?<a href="#" class="blue-text">Sign in</a></p>
+                   </div>
+               </form>
+            </div>
+        </div>
+        <div class="flex1 bg-img"></div>
+    </div>*@
+    <main class="reg-details">
+        <div class="reg-container">
+            <div class="reg-container_form">
+                <h4 class="Reg-text">Register here</h4>
+                <form action="" class="Form-details">
+                    <div class="label-name">
+                        <label for="name" class="name-detail">Full Name</label>
+                        <input type="text" id="name" class="label-input" placeholder="John Doe" />
+                    </div>
+                    <div class="label-name">
+                        <label for="email" class="email-detail">Decagon Email</label>
+                        <input type="text" id="email" class="label-input" placeholder="JohnDoe@decagon.com" />
+                    </div>
+                    <div class="label-name">
+                        <label for="language" class="language-detail">Language</label>
+                        <input type="text" id="language" class="label-input" placeholder="Node" />
+                    </div>
+                    <div class="label-name">
+                        <label for="password" class="password-detail">Password</label>
+                        <input type="password" id="password" class="password-input" placeholder="Enter password" />
+                    </div>
+                    <div class="label-name">
+                        <label for="confirm" class="confirm-detail">Confirm Password</label>
+                        <input type="password" id="confirm" class="password-input" placeholder="Confirm password" />
+                    </div>
+                    <div class="Button-label">
+                        <button type="button" class="btn-primary">Continue</button>
+                        <p class="paragraph">Already have an account? <a href="#" class="bttn-link">  Sign in</a></p>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="reg-image">
+             @*<img src="/images/UserImage.png" alt="FacilitatorLoginPage" class="img-fig" />*@
+        </div>
+
+    </main>
+</body>

@@ -1,0 +1,229 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CMS.MVC
+build_property.RootNamespace = CMS.MVC
+build_property.ProjectDir = C:\Users\hp\Desktop\CMS\CMS\CMS.MVC\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\hp\Desktop\CMS\CMS\CMS.MVC
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Account/ConfirmPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtUGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Account/FacilitatorLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGYWNpbGl0YXRvckxvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Account/PermissionDecadev.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQZXJtaXNzaW9uRGVjYWRldi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Account/PermissionFacilitator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxQZXJtaXNzaW9uRmFjaWxpdGF0b3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Account/ResetPasword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Account/SuccessInvite.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTdWNjZXNzSW52aXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Classroom/LearningContent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nyb29tXExlYXJuaW5nQ29udGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Classroom/QuizPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nyb29tXFF1aXpQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Classroom/QuizScore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nyb29tXFF1aXpTY29yZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Classroom/ResourcePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3Nyb29tXFJlc291cmNlUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Dashboard/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkbWluRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Dashboard/DecadevsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERlY2FkZXZzUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Dashboard/DevsProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERldnNQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Dashboard/FacilitatorDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEZhY2lsaXRhdG9yRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Dashboard/FacilitatorsPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEZhY2lsaXRhdG9yc1BhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Dashboard/StudentDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXFN0dWRlbnREYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_AccountLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BY2NvdW50TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_customsidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9jdXN0b21zaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_DashBoardLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXNoQm9hcmRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_DevProfileLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EZXZQcm9maWxlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_DevsProfileLeftNavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EZXZzUHJvZmlsZUxlZnROYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_FacilitatorDashboardPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GYWNpbGl0YXRvckRhc2hib2FyZFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_FacilitatorDashboardTopNavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GYWNpbGl0YXRvckRhc2hib2FyZFRvcE5hdkJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_FacilitatorLeftNavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GYWNpbGl0YXRvckxlZnROYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_FacilitatorLoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GYWNpbGl0YXRvckxvZ2luTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_FacilitatorTopNavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GYWNpbGl0YXRvclRvcE5hdmJhclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_FD_PermissionLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9GRF9QZXJtaXNzaW9uTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_LearningContentLeftNavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MZWFybmluZ0NvbnRlbnRMZWZ0TmF2YmFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_LearningcontentTopNavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MZWFybmluZ2NvbnRlbnRUb3BOYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_LeftNavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MZWZ0TmF2YmFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_LeftSidebarResourcePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MZWZ0U2lkZWJhclJlc291cmNlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_LogoPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dvUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_PasswordLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYXNzd29yZExheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_PermissionDecadevLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QZXJtaXNzaW9uRGVjYWRldkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_PermissionPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QZXJtaXNzaW9uUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_QuizPage-LearningContentLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9RdWl6UGFnZS1MZWFybmluZ0NvbnRlbnRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_QuizScoreLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9RdWl6U2NvcmVMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_ResourcePageLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZXNvdXJjZVBhZ2VMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_TopNavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BOYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_TopNavbarResourcePartial2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BOYXZiYXJSZXNvdXJjZVBhcnRpYWwyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_TopNavPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BOYXZQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/CMS/CMS/CMS.MVC/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jmxidmz78f

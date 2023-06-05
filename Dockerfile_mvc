@@ -1,0 +1,22 @@
+#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+WORKDIR /app
+
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+WORKDIR "/CMS.MVC"
+COPY ["CMS.MVC/CMS.MVC.csproj", "CMS.MVC/"]
+RUN dotnet restore "CMS.MVC/CMS.MVC.csproj"
+COPY . .
+WORKDIR "/CMS.MVC/CMS.MVC"
+RUN dotnet build "CMS.MVC.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "CMS.MVC.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR "/CMS.MVC/CMS.MVC"
+COPY --from=publish /app/publish .
+
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet CMS.MVC.dll
+#ENTRYPOINT ["dotnet", "CMS.MVC.dll"]

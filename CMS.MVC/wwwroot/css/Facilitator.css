@@ -1,0 +1,104 @@
+﻿
+.title-head {
+    margin: 32px 116px 24px 64.5px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.dropdown {
+    position: relative;
+    margin-top: 1.533rem;
+}
+
+dropdown_lg {
+    margin-bottom: 2.533rem;
+}
+
+.table-head {
+    margin-left: 46px;
+    margin-right: 28px;
+    margin-bottom: 14px;
+    width: 90%;
+}
+
+.table-header {
+    min-width: 997px;
+    height: 54px;
+    background-color: #EAECF0;
+    padding-left: 32px;
+}
+
+.head-title {
+    padding-left: 32px;
+}
+
+
+.coloum-detail {
+    background-color: #ffffff;
+    height: 54px;
+}
+
+.coloum-name {
+    padding-left: 42.5px;
+    color: #1570EF;
+}
+
+.prev {
+    position: relative;
+}
+
+.img-prev {
+    position: absolute;
+    left: 9px;
+    top: 5px;
+}
+
+.prev-btn {
+    width: 114px;
+    height: 36px;
+    border-radius: 8px;
+    padding-left: 15px;
+    outline: none;
+    border: 1px solid #D0D5DD;
+    background-color: #ffffff;
+}
+
+.next {
+    position: relative;
+}
+
+.img-next {
+    position: absolute;
+    left: 80px;
+    top: 5px;
+}
+
+.next-btn {
+    width: 114px;
+    height: 36px;
+    border-radius: 8px;
+    padding-right: 15px;
+    outline: none;
+    border: 1px solid #D0D5DD;
+    background-color: #ffffff;
+}
+
+.paginate-content {
+    width: 692px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.paginate-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.paginate-num {
+    padding-right: 32.5px;
+}

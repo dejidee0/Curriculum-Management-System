@@ -1,0 +1,281 @@
+﻿<@{
+    ViewData["Title"] = "Facilitator Page";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+<link rel="stylesheet" href=" /css/Dev.css" />
+<link rel="stylesheet" href="~/css/Facilitator.css" />
+<partial name="_LeftNavbarPartial" />
+<div class="right-main-panel">
+
+    <partial name="_TopNavPartial" />
+    <div class="flex">
+        <div class="title-head">
+            <h3 class="title-head_text">Facilitators</h3>
+        </div>
+        <div class="dropdown">
+            <button class="btn bg-transparent me-5 mb-5 p-3 gray-border br-50 w-40" data-bs-toggle="dropdown">
+                <span id="selectedOption">All </span> <b>| </b>
+                <i class="bi bi-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" onclick="selectOption('.Net')">.Net</a></li>
+                <li><a class="dropdown-item" href="#" onclick="selectOption('Java')">Java</a></li>
+                <li><a class="dropdown-item" href="#" onclick="selectOption('Node')">Node</a></li>
+                <li><a class="dropdown-item" href="#" onclick="selectOption('FRE')">Frontend</a></li>
+                <li><a class="dropdown-item" href="#" onclick="selectOption('Agile')">Agile</a></li>
+            </ul>
+        </div>
+
+
+        <script>
+
+function selectOption(option) {
+
+    document.getElementById('selectedOption').textContent = option;
+
+}
+
+</script>
+
+    </div>
+
+
+    <table class="table-head">
+        <tr class="table-header">
+            <th class="head-title">Full name</th>
+            <th>Track</th>
+            <th>Language</th>
+            <th>Action</th>
+        </tr>
+        <tr class="coloum-detail">
+            <td class="coloum-name">John Doe</td>
+            <td>Backend</td>
+            <td>Java</td>
+            <td>
+                <div class="dropdown">
+                    <a class="dropdown_lg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        ...
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Withdraw Access</a></li>
+                        <li><a class="dropdown-item" href="#">Edit Acess</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Delete</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr class="coloum-detail">
+            <td class="coloum-name">John Doe</td>
+            <td>Backend</td>
+            <td>.Net</td>
+            <td>
+                <div class="dropdown">
+                    <a class="dropdown_lg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        ...
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Withdraw Access</a></li>
+                        <li><a class="dropdown-item" href="#">Edit Acess</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Delete</a></li>
+                    </ul>
+                </div>
+            </td>
+
+        </tr>
+        <tr class="coloum-detail">
+            <td class="coloum-name">John Doe</td>
+            <td>Frontend</td>
+            <td>React</td>
+            <td>
+                <div class="dropdown">
+                    <a class="dropdown_lg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        ...
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Withdraw Access</a></li>
+                        <li><a class="dropdown-item" href="#">Edit Acess</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Delete</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr class="coloum-detail">
+            <td class="coloum-name">John Doe</td>
+            <td>Agile</td>
+            <td>Agile</td>
+            <td>
+                <div class="dropdown">
+                    <a class="dropdown_lg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        ...
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Withdraw Access</a></li>
+                        <li><a class="dropdown-item" href="#">Edit Acess</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Delete</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr class="coloum-detail">
+            <td class="coloum-name">John Doe</td>
+            <td>Frontend</td>
+            <td>React</td>
+            <td>
+                <div class="dropdown">
+                    <a class="dropdown_lg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        ...
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Withdraw Access</a></li>
+                        <li><a class="dropdown-item" href="#">Edit Acess</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Delete</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr class="coloum-detail">
+            <td class="coloum-name">John Doe</td>
+            <td>Backend</td>
+            <td>Node</td>
+            <td>
+                <div class="dropdown">
+                    <a class="dropdown_lg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        ...
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Withdraw Access</a></li>
+                        <li><a class="dropdown-item" href="#">Edit Acess</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Delete</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr class="coloum-detail">
+            <td class="coloum-name">John Doe</td>
+            <td>Backend</td>
+            <td>Java</td>
+            <td>
+                <div class="dropdown">
+                    <a class="dropdown_lg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        ...
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Withdraw Access</a></li>
+                        <li><a class="dropdown-item" href="#">Edit Acess</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Delete</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr class="coloum-detail">
+            <td class="coloum-name">John Doe</td>
+            <td>Frontend</td>
+            <td>React</td>
+            <td>
+                <div class="dropdown">
+                    <a class="dropdown_lg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        ...
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Withdraw Access</a></li>
+                        <li><a class="dropdown-item" href="#">Edit Acess</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Delete</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr class="coloum-detail">
+            <td class="coloum-name">John Doe</td>
+            <td>Agile</td>
+            <td>Agile</td>
+            <td>
+                <div class="dropdown">
+                    <a class="dropdown_lg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        ...
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Withdraw Access</a></li>
+                        <li><a class="dropdown-item" href="#">Edit Acess</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Delete</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr class="coloum-detail">
+            <td class="coloum-name">John Doe</td>
+            <td>Backend</td>
+            <td>.Net</td>
+            <td>
+                <div class="dropdown">
+                    <a class="dropdown_lg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        ...
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Withdraw Access</a></li>
+                        <li><a class="dropdown-item" href="#">Edit Acess</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Delete</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+        <tr class="coloum-detail">
+            <td class="coloum-name">John Doe</td>
+            <td>Frontend</td>
+            <td>CSS</td>
+            <td>
+                <div class="dropdown">
+                    <a class="dropdown_lg" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        ...
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Withdraw Access</a></li>
+                        <li><a class="dropdown-item" href="#">Edit Acess</a></li>
+                        <li><a class="dropdown-item text-danger" href="#">Delete</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div class="paginate-content">
+        <div class="prev">
+            <div class="img-prev">
+                <img src="~/images/Icon-arrow.png" alt="prev arrow" />
+            </div>
+            <button class="prev-btn">Previous </button>
+        </div>
+        <div class="paginate-item">
+            <p class="paginate-num">1</p>
+            <p class="paginate-num">2</p>
+            <p class="paginate-num">3</p>
+            <p class="paginate-num">...</p>
+            <p class="paginate-num">8</p>
+            <p class="paginate-num">9</p>
+            <p class="paginate-num">10</p>
+        </div>
+        <div class="next">
+            <div class="img-next">
+                <img src="~/images/hero-icon.svg" alt="next arrow" />
+            </div>
+            <button class="next-btn">Next </button>
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+function selectOption(option) {
+    document.getElementById('selectedOption').textContent = option;
+}
+</script>

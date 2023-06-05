@@ -1,0 +1,186 @@
+﻿@{
+    Layout = "~/Views/Shared/_FD_PermissionLayout.cshtml";
+    ViewData["Title"] = "Facilitator Permission Page";
+}
+
+
+<link rel="stylesheet" href="~/css/Permission.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/_TopNavbarResourcePartial2.css" asp-append-version="true" />
+
+
+<partial name="_LeftNavbarPartial" />
+<div>
+    <div class="right-main-panel">
+        <partial name="_TopNavbarResourcePartial2" />
+    </div>
+
+
+    <div class="permission mb-4">
+        <div class="permission-1">Permission</div>
+        <p class="invite">Invite or withdraw Java curriculum access to decadevs.</p>
+    </div>
+
+
+    <div class="access mb-3 p-2">
+        <div class="java-curiculum-access">Java curriculum Access</div>
+        <div class="accesslogin">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Add<img class="add" src="~/images/plus.png" alt="add" />
+            </button>
+        </div>
+    </div>
+
+    <div class="row">
+        <table class="table custom-table ">
+            <thead class=" shapes">
+                <tr>
+                    <th class="custom-table">Name</th>
+                    <th class="custom-table">Email</th>
+                    <th class="custom-table">Language</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="bg-light">
+                <tr>
+                    <td>Mbanefo Chiemeka</td>
+                    <td>Johndoe@decagon.com</td>
+                    <td>Java</td>
+                    <td><img src="~/images/Icon.png" /></td>
+                </tr>
+                <tr>
+                    <td>Ubanwa Nwabugwu</td>
+                    <td>Johndoe@decagon.com</td>
+                    <td>Java</td>
+                    <td><img src="~/images/Icon.png" /></td>
+                </tr>
+                <tr>
+                    <td>Nwakasi Ibezimako</td>
+                    <td>Johndoe@decagon.com</td>
+                    <td>Java</td>
+                    <td><img src="~/images/Icon.png" /></td>
+                </tr>
+                <tr>
+                    <td>Ukaegbunam Nwokezuike</td>
+                    <td>Johndoe@decagon.com</td>
+                    <td>Java</td>
+                    <td><img src="~/images/Icon.png" /></td>
+                </tr>
+                <tr>
+                    <td>Ekwutosi Obinna</td>
+                    <td>Johndoe@decagon.com</td>
+                    <td>Java</td>
+                    <td><img src="~/images/Icon.png" /></td>
+                </tr>
+                <tr>
+                    <td>Ekwutosi Obinna</td>
+                    <td>Johndoe@decagon.com</td>
+                    <td>Java</td>
+                    <td><img src="~/images/Icon.png" /></td>
+                </tr>
+
+                <tr>
+                    <td>Ekwutosi Obinna</td>
+                    <td>Johndoe@decagon.com</td>
+                    <td>Java</td>
+                    <td><img src="~/images/Icon.png" /></td>
+                </tr>
+                <tr>
+                    <td>Ekwutosi Obinna</td>
+                    <td>Johndoe@decagon.com</td>
+                    <td>Java</td>
+                    <td><img src="~/images/Icon.png" /></td>
+                </tr>
+                <tr>
+                    <td>Ekwutosi Obinna</td>
+                    <td>Johndoe@decagon.com</td>
+                    <td>Java</td>
+                    <td><img src="~/images/Icon.png" /></td>
+                </tr>
+                <tr>
+                    <td>Ekwutosi Obinna</td>
+                    <td>Johndoe@decagon.com</td>
+                    <td>Java</td>
+                    <td><img src="~/images/Icon.png" /></td>
+                </tr>
+            </tbody>
+        </table>
+        <button class="button-default1">
+            Send Invite
+        </button>
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">New Decadevs</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="firstName" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="lastName" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email">
+                            </div>
+                            <div class="mb-1">
+                                <label for="language" class="form-label">Language</label>
+                                @*<input type="text" class="form-control" id="language" placeholder="Java">*@
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">Java</option>
+                                    <option value="2">.NET</option>
+                                    <option value="3">Nodejs</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="d-flex flex-column justify-content-around p-3">
+                        <button type="button" class="btn btn-primary mb-3" id="addButton">Add</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="inviteSentModal" tabindex="-1" aria-labelledby="inviteSentModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <span class="emoji" style="font-size: 4rem;">&#x1F389;</span>
+                        <h1 class="modal-title mt-3">Invite Sent</h1>
+                        <p class="mb-3">You have successfully invited 10 Decadevs to the Java stack.</p>
+                        <button type="button" class="btn btn-primary btn-block" data-bs-dismiss="modal">OK!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            document.getElementById('addButton').addEventListener('click', function () {
+                $('#exampleModal').modal('hide');
+                $('#inviteSentModal').modal('show');
+            });
+        </script>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+

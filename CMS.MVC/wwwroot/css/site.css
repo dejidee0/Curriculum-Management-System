@@ -1,0 +1,59 @@
+﻿@import "colors.css";
+
+html {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+/** my styles */
+.body-bg {
+    background-color: var(--grey)
+}
+
+.logo {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.logo-img-box {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px
+}
+
+.logo img {
+    width: 100%;
+}
+
+.display-content-in-center {
+    display: flex;
+    justify-content: center;
+}
+
+.right-main-panel {
+    margin-left: 317px;
+    background-color: var(--grey);
+    overflow-x: hidden;
+}
+
+.inner-panel {
+    width: 100%;
+}

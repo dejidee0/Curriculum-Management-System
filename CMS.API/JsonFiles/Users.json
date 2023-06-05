@@ -1,0 +1,72 @@
+[
+  {
+    "Id": "f487153f-6700-2e4c-8829-dc4808cb9d29",
+    "FirstName": "Ayooluwa",
+    "LastName": "Thomas",
+    "UserName": "kimbill",
+    "Email": "daj@gmail.com",
+    "Password": "Password@123",
+    "PhoneNumber": "604-410-3893",
+    "SquadNumber": "001",
+    "PublicId": "Practical",
+    "ImageUrl": "https://this-person-does-not-exist.com/img/avatar-89ae3803f021d655fee54f074ee23e6a.jpg",
+    "CreatedAt": "2023-02-11T17:41:37.6214349Z",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": "68865562-f2e9-3538-0e2c-9e4f06dbf03a",
+    "FirstName": "Francis",
+    "LastName": "Ibe",
+    "UserName": "cidospark",
+    "Email": "abirtley4@ucsd.edu",
+    "Password": "Pass@123",
+    "PhoneNumber": "372-617-8700",
+    "SquadNumber": "003",
+    "PublicId": "Diverse",
+    "ImageUrl": "https://this-person-does-not-exist.com/img/avatar-89ae3803f021d655fee54f074ee23e6a.jpg",
+    "CreatedAt": "2023-02-11T17:41:37.6214595Z",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": "be004946-a4ac-56c6-b51f-cc3d6b5f51f3",
+    "FirstName": "Gorgeous",
+    "LastName": "Beauty",
+    "UserName": "dcapron0",
+    "Email": "dcapron0@loc.gov",
+    "Password": "Pass@123",
+    "PhoneNumber": "153-937-6348",
+    "SquadNumber": "004",
+    "PublicId": "Metal",
+    "ImageUrl": "https://this-person-does-not-exist.com/img/avatar-89ae3803f021d655fee54f074ee23e6a.jpg",
+    "CreatedAt": "2023-02-11T17:41:37.5618614Z",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": "ed4e7669-47c2-8e8d-cd5a-015d6109d7c5",
+    "FirstName": "mobile",
+    "LastName": "payment",
+    "UserName": "lfelder1",
+    "Email": "lfelder1@networkadvertising.org",
+    "Password": "Pass@1423",
+    "PhoneNumber": "229-887-9046",
+    "SquadNumber": "002",
+    "PublicId": "Walks",
+    "ImageUrl": "https://this-person-does-not-exist.com/img/avatar-89ae3803f021d655fee54f074ee23e6a.jpg",
+    "CreatedAt": "2023-02-11T17:41:37.6163404Z",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  },
+  {
+    "Id": "84652356-e724-f174-f5fa-321126586fdc",
+    "FirstName": "transmit",
+    "LastName": "New Jersey",
+    "UserName": "mpabel2",
+    "Email": "mpabel2@friendfeed.com",
+    "Password": "Password@123",
+    "PhoneNumber": "437-636-5421",
+    "SquadNumber": "004",
+    "PublicId": "Rustic Concrete Tuna",
+    "ImageUrl": "https://this-person-does-not-exist.com/img/avatar-89ae3803f021d655fee54f074ee23e6a.jpg",
+    "CreatedAt": "2023-02-11T17:41:37.6178549Z",
+    "UpdatedAt": "0001-01-01T00:00:00"
+  }
+]

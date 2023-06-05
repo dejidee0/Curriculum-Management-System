@@ -1,0 +1,39 @@
+﻿h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+}
+#active-page {
+    background: #1570EF;
+}
+.bacCol {
+    background: #EAECF0;
+}
+#active-page span {
+    color: white;
+}
+.inner-padding{
+    width:85%;
+    margin: 0 auto;
+}
+#file{
+    display:none;
+}
+.customPadding {
+    padding-block: 2rem;
+    border: 1px dashed #D0D5DD;
+    background: #EAECF0;
+}
+#browserstyle {
+    color: #1570EF;
+}
+.submitbtn {
+    background: #1570EF;
+    border-radius: 6px;
+    padding-block:12px;
+    outline:none;
+    border:none;
+    color:white;
+}

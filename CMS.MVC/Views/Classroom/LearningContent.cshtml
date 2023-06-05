@@ -1,0 +1,283 @@
+﻿@{
+    Layout = "~/Views/Shared/_QuizPage-LearningContentLayout.cshtml";
+    bool showModal = ViewBag.showSuccessModal ?? false;
+
+}
+<partial name="_LearningContentLeftNavbarPartial" />
+
+<div class="right-main-panel background">
+    <partial name="_LearningContentTopNavbarPartial" />
+
+    <div class=" main-content">
+        <div class="content-title">
+            <p>Introduction To HTML</p>
+        </div>
+        <div class="content-video">
+            <img src="~/images/Front.png" asp-append-version="true" />
+        </div>
+        <div class="content-text">
+            <strong class="content-subtitle">
+                What is HTML
+            </strong>
+            <p class="content-body">
+                What is HTML
+
+                HTML is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web applications. Let's see what is meant by Hypertext  Markup Language, and Web page. <br/> <br/>
+
+                <strong>Hyper Text:</strong> HyperText simply means "Text within Text." A text has a link within it,                         is a hypertext. Whenever you click on a link which brings you to a new webpage, you have clicked on a hypertext. HyperText is a way to link two or more web pages (HTML documents) with each other.<br /> <br />
+
+                <strong>Markup language:</strong> A markup language is a computer language that is used to apply layout and formatting conventions to a text document. Markup language makes text more interactive and dynamic. It can turn text into images, tables, links, etc.<br /> <br />
+
+                <strong>Web Page:</strong> A web page is a document which is commonly written in HTML and translated             by a web browser. A web page can be identified by entering an URL. A Web page can be of the static or dynamic type. With the help of HTML only, we can create static web pages.
+            </p>
+        </div>
+
+
+        <div class="quiz-body">
+            <div class="body-header">
+                <div class="body-header-inner">
+                    <div class="topic body-header-font">
+                        <h5>Topic</h5>
+                        <select name="" id="">
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="option1">Week 1: Introduction to HTML</option>
+                            <option value="option1">Week 1: Introduction to HTML</option>
+                            <option value="option1">Week 1: Introduction to HTML</option>
+                            <option value="option1">Week 1: Introduction to HTML</option>
+                            <option value="option1">Week 1: Introduction to HTML</option>
+                            <option value="option1">Week 1: Introduction to HTML</option>
+                        </select>
+                    </div>
+                    <div class="topic body-header-font">
+                        <h5>Instruction/s</h5>
+                        <textarea name=""
+                                  id=""
+                                  cols="30"
+                                  rows="10"
+                                  placeholder="Enter Instructions"></textarea>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="questions-con">
+                <div class="questions-main">
+                    <div class="questions-title">
+                        <h2>Questions</h2>
+                    </div>
+                    <div class="que">
+                        <div class="questions">
+                            <div class="hold">
+                                <div class="plus">
+                                    <div class="plus-inner">
+                                        <i class="fa-solid fa-plus" id="awesome"></i>
+                                    </div>
+                                </div>
+                                <div class="question-header">
+                                    <div class="num-ques">
+                                        <div class="numbering">1.</div>
+                                        <p>What does HTML stand for?</p>
+                                    </div>
+                                    <div class="radio">
+                                        <div class="radio-title">
+                                            <input type="radio" name="radio-1" id="multiple" />
+                                            <label for="multiple">Multiple Choice</label>
+                                        </div>
+                                        <div class="radio-title">
+                                            <input type="radio" name="radio-1" id="blank" />
+                                            <label for="blank">Fill in the blank</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="answers">
+                                <div class="answer-main">
+                                    <span>A.</span>
+                                    <label for="box1">Hypertext Mark-up Language</label>
+                                    <input type="checkbox" id="box1" />
+                                </div>
+
+                                <div class="answer-main">
+
+                                    <span>B.</span>
+                                    <label for="box2">Hypertext Mark-up Language</label>
+                                    <input type="checkbox" id="box2" />
+
+                                </div>
+
+                                <div class="answer-main">
+
+                                    <span>A.</span>
+                                    <label for="box3">Hypertext Mark-up Language</label>
+                                    <input type="checkbox" id="box3" />
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="questions">
+                            <div class="hold">
+                                <div class="plus">
+                                    <div class="plus-inner">
+                                        <i class="fa-solid fa-plus" id="awesome"></i>
+                                    </div>
+                                </div>
+                                <div class="question-header">
+                                    <div class="num-ques">
+                                        <div class="numbering">2.</div>
+
+                                        <p>What does HTML stand for?</p>
+                                    </div>
+                                    <div class="radio">
+                                        <div class="radio-title">
+                                            <input type="radio" name="radio-2" id="radioButton-3" />
+                                            <label for="radioButton-3">Multiple Choice</label>
+                                        </div>
+                                        <div class="radio-title">
+                                            <input type="radio" name="radio-2" id="radioButton-4" />
+                                            <label for="radioButton-4">Fill in the blank</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="answers-fill-blank">
+                                <input type="text" placeholder="Enter answer">
+                            </div>
+                        </div>
+
+
+
+                        <div class="questions">
+                            <div class="hold">
+                                <div class="plus">
+                                    <div class="plus-inner">
+                                        <i class="fa-solid fa-plus" id="awesome"></i>
+                                    </div>
+                                </div>
+                                <div class="question-header">
+                                    <div class="num-ques">
+                                        <div class="numbering">3.</div>
+                                        <p>Question</p>
+                                    </div>
+                                    <div class="radio">
+                                        <div class="radio-title">
+                                            <input type="radio" checked name="radio-3" id="radioButton-5" />
+                                            <label for="radioButton-5">Multiple Choice</label>
+                                        </div>
+                                        <div class="radio-title">
+                                            <input type="radio" name="radio-3" id="radioButton-6" />
+                                            <label for="radioButton-6">Fill in the blank</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="answers">
+                                <div class="answer-main">
+
+                                    <span>A.</span>
+                                    <label for="box4">Option 3</label>
+                                    <input type="checkbox" id="box4" />
+
+                                </div>
+
+                                <div class="answer-main">
+
+                                    <span>B.</span>
+                                    <label for="box5">Option 2</label>
+                                    <input type="checkbox" id="box5" />
+
+                                </div>
+
+                                <div class="answer-main">
+
+                                    <span>A.</span>
+                                    <label for="box6">Option 1</label>
+                                    <input type="checkbox" id="box6" />
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="questions">
+                            <div class="hold">
+                                <div class="plus">
+                                    <div class="plus-inner">
+                                        <i class="fa-solid fa-plus" id="awesome"></i>
+                                    </div>
+                                </div>
+                                <div class="question-header">
+                                    <div class="num-ques">
+                                        <div class="numbering">4.</div>
+
+                                        <p>What does HTML stand for?</p>
+                                    </div>
+                                    <div class="radio">
+                                        <div class="radio-title">
+                                            <input type="radio" name="radio-2" id="radioButton-8" />
+                                            <label for="radioButton-8">Multiple Choice</label>
+                                        </div>
+                                        <div class="radio-title">
+                                            <input type="radio" checked name="radio-2" id="radioButton-6" />
+                                            <label for="radioButton-6">Fill in the blank</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="answers-fill-blank">
+                                <input type="text" placeholder="Enter answer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button onclick="toggleModal()">
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    <span>Upload</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="modal-wrapper" id="successModal" style="@(showModal ? "display: block;" : "display: none;")">
+            <div class="overlay">
+            </div>
+
+            <div class="success-modal">
+                <div class="success-modal-inner">
+                    <div class="success-image">
+                        <img src="~/images/Emoji.png" asp-append-version="true" />
+                    </div>
+                    <div class="success-message">
+                        <p>Upload Successful</p>
+                    </div>
+                    <div class="success-text">
+                        <p>You have successfully uploaded week 2 .NET curriculum learning content</p>
+                    </div>
+                    <div class="success-button-ok" onclick="toggleModal()">
+                        <button>OK!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleModal() {
+        var modal = document.getElementById("successModal");
+        var currentDisplay = modal.style.display;
+
+        if (currentDisplay === "block") {
+            modal.style.display = "none";
+    @ViewBag.showSuccessModal = false;
+        } else {
+            modal.style.display = "block";
+    @ViewBag.showSuccessModal = true;
+        }
+    }
+</script>
